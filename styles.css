@@ -1,0 +1,134 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main-nav-bg-color {
+    background-color: #fffbf7;
+}
+.logo_housesin {
+ width: 14rem;
+ padding-left: 1rem;
+}
+.nav-item {
+    padding: 5px 30px;
+}
+
+
+
+
+.cotiza {
+    background-color: rgb(0, 174, 255);
+    width: 9rem;
+    height: 3rem;
+    border-radius: 30px ; /*esquina redondeada*/
+    border-style: none; /*sin linea en el borde*/
+    color: aliceblue; /*color al texto*/
+    font-weight: 700; /*grosor del texto */
+    transition: all .5s ease;
+}
+.cotiza:hover {
+    cursor: pointer;
+    border-radius: 30px;
+    background: rgba(214, 119, 209, 0.904);
+}
+
+.container-carousel {
+    margin-top: 110px;
+    height:auto;
+}
+.container-masvistos {
+    margin-top: 2rem;
+    margin-left: 10px;
+}
+.container-masvistos h1 {
+    font-weight: 700;
+}
+.container-masvistos p {
+    color:#8b8b8bcc;
+}
+.card-body .card-title {
+    font-weight: 700;
+    color:#187062ec;
+}
+.card-body .card-lugar {
+    color: #e25252cc;
+    font-size: .8rem;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card-body .card-zona {
+    color:#187062ec;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card {
+    transition: all .5s ease;
+}
+
+.card:hover {
+    cursor: pointer;
+    background: rgb(189, 212, 201);
+}
+
+.card-content-car {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: left;
+}
+
+.card-content img {
+    width: 2.5rem;
+}
+
+footer {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(52, 52, 95);
+    justify-content: space-between;
+}
+.container-footer1, .container-footer2, .container-footer3, .container-footer4 {
+    margin: 5px;
+   background-color: rgb(52, 52, 95);
+}
+.container-footer1, .container-footer2, .container-footer3, .container-footer4 p {
+    color: #fff;
+}
+.container-footer2 .Enlaces a {
+    color: #fff;
+}
+.container-footer3 {
+    width: 14rem;
+}
+.container-footer4 img {
+    width: 3rem;
+    margin: 5px;
+}
+
+@media screen and (max-width: 323px) {
+
+    .conteiner-carousel {
+        margin-top: 80px;
+    }
+    .logo_housesin {
+        width: 9rem;
+       }
+       .card-content img {
+        width: 2rem;
+    }
+}
+@media screen and (max-width: 240px) {
+    .conteiner-carousel {
+        margin-top: 120px;
+    }
+    .card-content img {
+        width: 1.5rem;
+    }
+}
