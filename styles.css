@@ -38,6 +38,12 @@ body {
     margin-top: 110px;
     height:auto;
 }
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: rgba(78, 150, 138, 0.603);
+}
 .container-masvistos {
     margin-top: 2rem;
     margin-left: 10px;
